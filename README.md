@@ -14,3 +14,16 @@ $env:FLASK_APP='flaskr'
 $env:FLASK_ENV='development'
 flask run
 ```
+
+## Test
+To run the tests, use the `pytest` command.
+```
+pytest
+```
+
+To measure the code coverage, use the `coverage` command.
+```
+coverage run -m pytest
+```
+
+To view the coverage report in the terminal use the `coverage report` command.
